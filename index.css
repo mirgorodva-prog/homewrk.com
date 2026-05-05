@@ -8,7 +8,6 @@ body {
 
 .card {
     background: #fff;
-    /* Гнучка ширина: адаптується під контент, але не ширше 500px */
     width: 100%;
     max-width: 500px; 
     min-width: 300px;
@@ -16,8 +15,6 @@ body {
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-    
-    /* Дозволяє картці рости у висоту автоматично */
     height: auto; 
     transition: all 0.3s ease;
 }
@@ -57,9 +54,7 @@ button {
     text-align: center;
     border-top: 1px solid #eee;
     padding-top: 15px;
-    
-    /* ВАЖЛИВО: дозволяє довгому тексту (1+2+3...) переноситися */
-    word-wrap: break-word;
+    word-wrap: break-word;    
     overflow-wrap: break-word;
 }
 
@@ -68,7 +63,6 @@ button {
     color: #7f8c8d;
     margin-top: 10px;
     line-height: 1.5;
-    /* Допомагає коректно відображати великі масиви чисел */
     display: block; 
 }
 
